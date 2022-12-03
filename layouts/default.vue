@@ -4,6 +4,9 @@
     <nav>
       <ul>
         <li>
+          <NuxtLink :to="{name : 'login'}">Login</NuxtLink>
+        </li>
+        <li>
           <NuxtLink :to="{name : 'index'}">Home</NuxtLink>
         </li>
         <li>
