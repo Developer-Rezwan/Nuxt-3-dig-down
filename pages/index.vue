@@ -8,6 +8,9 @@
         <li>
           <NuxtLink :to="{name : 'about'}">About</NuxtLink>
         </li>
+        <li>
+          <!-- <NuxtLink :to="{name : 'about' , params : {id : 123 }}">About 123</NuxtLink> -->
+        </li>
       </ul>
     </nav>
     <h2>
