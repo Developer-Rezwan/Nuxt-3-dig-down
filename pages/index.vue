@@ -9,13 +9,16 @@
           <NuxtLink :to="{name : 'about'}">About</NuxtLink>
         </li>
         <li>
-          <!-- <NuxtLink :to="{name : 'about' , params : {id : 123 }}">About 123</NuxtLink> -->
+          <!-- Group routing -->
+          <NuxtLink
+            :to="{name : 'users-role-id', params : { role : 'admin' , id : 123}}"
+          >Group Routing 123</NuxtLink>
         </li>
       </ul>
     </nav>
     <h2>
-      Welcome to homepage
-      <h3>hello</h3>
+      Welcome to
+      <span class="text-green">Nuxt 3 Practice App</span>
     </h2>
   </div>
 </template>
@@ -26,7 +29,7 @@
 <style lang="scss" scoped>
 h2 {
   color: greenyellow;
-  h3 {
+  span: {
     color: red;
   }
 }

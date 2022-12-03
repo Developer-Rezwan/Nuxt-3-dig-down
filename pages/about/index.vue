@@ -11,9 +11,6 @@
         <li>
           <NuxtLink :to="{name : 'about-user_id', params : {user_id : 123}}">About 123</NuxtLink>
         </li>
-        <li>
-          <!-- <NuxtLink :to="{name : 'user-role', params : { role : 'admin'}}">Admin 123</NuxtLink> -->
-        </li>
       </ul>
     </nav>
 
