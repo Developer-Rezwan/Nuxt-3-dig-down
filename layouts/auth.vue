@@ -1,13 +1,5 @@
 <template>
   <div>
-    <nav>
-      <ul>
-        <li>Register</li>
-        <li>
-          <NuxtLink to="/">Logout</NuxtLink>
-        </li>
-      </ul>
-    </nav>
     <div>
       <slot />
     </div>

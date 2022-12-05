@@ -49,13 +49,13 @@
               </button>
             </div>
             <div class="shrink-0">
-              <button
-                type="button"
+              <NuxtLink
+                to="/login"
                 class="relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 <!-- Heroicon name: mini/plus -->
                 <span>Login</span>
-              </button>
+              </NuxtLink>
             </div>
             <div class="shrink-0">
               <button
